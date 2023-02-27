@@ -1,1 +1,2 @@
-test
+pip install pyttsx3
+pip install colorama
