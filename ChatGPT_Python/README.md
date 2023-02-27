@@ -3,6 +3,7 @@
 ```
 pip install pyttsx3
 pip install colorama
+pip install SpeechRecognition
 ```
 - add TOKEN (Chatgpt api key)
 ```
