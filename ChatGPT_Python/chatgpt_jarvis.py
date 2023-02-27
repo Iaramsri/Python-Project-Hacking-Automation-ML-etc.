@@ -40,10 +40,8 @@ curl_command = [
 # Run the curl command and get the response
 output = subprocess.check_output(curl_command).decode("utf-8")
 
-# Parse the response with jq
 response = json.loads(output)
 generated_text = response["choices"][0]["text"]
-# Print the generated text
 
 print(Fore.RED + Style.BRIGHT + "\n[+] Input:", Fore.WHITE + text)
 print(Fore.GREEN + Style.BRIGHT + "\n[+] Output:", Fore.WHITE + generated_text)
