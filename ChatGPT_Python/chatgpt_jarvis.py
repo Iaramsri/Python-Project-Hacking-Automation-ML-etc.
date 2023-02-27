@@ -28,6 +28,7 @@ curl_command = [
     "curl", "-s", "https://api.openai.com/v1/completions",
     "-H", "Content-Type: application/json",
     "-H", f"Authorization: Bearer ChatGPT_apikey",
+    "--insecure",
     "-d", json.dumps({
         "model": "text-davinci-003",
         "prompt": text,
