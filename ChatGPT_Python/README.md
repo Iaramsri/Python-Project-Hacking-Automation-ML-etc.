@@ -9,3 +9,8 @@ pip install SpeechRecognition
 ```
 "Authorization: Bearer [paste your api here]"
 ```
+-using
+```
+python3 chatgpt_javis.py
+speak to input
+```
